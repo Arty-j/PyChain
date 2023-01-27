@@ -102,7 +102,7 @@ import hashlib
 
 ## Part 4: Watch a Demo
 
-[Streamlit_Blockchain_Demo](streamlit_blockchain_demo)
+[Streamlit_Blockchain_Demo](Images/PyChain_demo.mov)
 
 ---
 
