@@ -42,7 +42,7 @@ import hashlib
     - hash encoding library
 
 3. In terminal, move to directory where repository is filed
-    - type `streamlit run app.py`
+    - type `streamlit run pychain.py`
     
 ---
 
@@ -93,7 +93,13 @@ import hashlib
     - utilizes the cashe decorator to hold the previous data in memory and save on computational time
     - uses markdown text and write functions to comminicate headers and instructions to users
     - uses text boxes, sidebar slider, and buttons to take in user data and execute methods within classes
-    
+
+
+---
+
+## Part 4: Watch a Demo
+
+[Streamlit_Blockchain_Demo](streamlit_blockchain_demo)
 
 ---
 
