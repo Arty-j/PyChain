@@ -50,7 +50,7 @@ import hashlib
 # Create a Record Data Class that consists of the `sender`, `receiver`, and
 # `amount` attributes
 @dataclass
-class Record
+class Record:
     sender: str
     receiver: str
     amount: float
@@ -170,19 +170,19 @@ pychain = setup()
 
 # @TODO:
 # Delete the `input_data` variable from the Streamlit interface.
-st.text_input("Block Data")
+st.markdown("*Block Data*")
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-sender = st.input_area("Sender")
+sender = st.text_input("Sender")
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-receiver = st.input_area("Receiver")
+receiver = st.text_input("Receiver")
 
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
-amount = st.input_area("Amount")
+amount = st.text_input("Amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
