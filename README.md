@@ -35,17 +35,17 @@ import hashlib
 
 1. activate your development environment
     - `conda activate dev`
-
+    
 2. `pip install streamlit`
     - install streamlit to your dev env
     - web app interface library
-
+      
 3. `pip install hashlib`
     - install hashlib to dev env
     - hash encoding library
-
-4. In terminal, move to directory where repository is filed, run `pychain.py`
-    -`streamlit run pychain.py`
+    
+4. In terminal, move to directory where repository is filed
+    - `streamlit run pychain.py`
     
 ---
 
